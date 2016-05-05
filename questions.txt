@@ -1,0 +1,12 @@
+module.exports.questionList = {
+	q0: "How many friends do you typically hang out with in one outing?"
+	q1:	"How many friends have you seen in the past month?"
+	q2: "How would you describe the balance of times you help your friends vs times friends have helped you?"
+	q3: "How often do you see your friends in an average month?"
+	q4: "How dedicated are you to the well-being of you friends?"
+	q5: "How would you describe the gender balance of your regular friends?"
+	q6: "How many of your friends have you dated in the past?"
+	q7: "How likely are you to date one of your existing friends?"
+	q8: "How much do you trust your friends?"
+	q9: "How likely are you to choose a significant other over your friends?"
+}
