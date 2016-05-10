@@ -15,9 +15,16 @@
 </head>
 <body>
     <div class="page-header">
-        <h1>Friend Finder Survey<small>A few short questions to get you hooked up</small></h1>
+        <h1>Friend Finder Survey<small>  A few short questions to get you hooked up</small></h1>
     </div>
-
+    <form>
+        <div class="form-group">
+            <label for="friendName">Name</label>
+            <input type="text" class="form-control" id="friendName" placeholder="Name">
+            <label for="friendURL">Picture URL</label>
+            <input type="text" class="form-control" id="friendURL" placeholder="http://..../yourpic.jpg">
+        </div>
+    </form>
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
         <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
@@ -58,11 +65,11 @@
                       <div class="col-lg-6">
                         <div class="input-group">
                             <p> How many friends have you seen in the past month? </p>
-                            <input type="radio" aria-label="..." name="question-1" value="1">1<br>
-                            <input type="radio" aria-label="..." name="question-1" value="2">2<br>
-                            <input type="radio" aria-label="..." name="question-1" value="3">3<br>
-                            <input type="radio" aria-label="..." name="question-1" value="4">4<br>
-                            <input type="radio" aria-label="..." name="question-1" value="5">5<br>
+                            <input type="radio" aria-label="..." name="question-2" value="1">1<br>
+                            <input type="radio" aria-label="..." name="question-2" value="2">2<br>
+                            <input type="radio" aria-label="..." name="question-2" value="3">3<br>
+                            <input type="radio" aria-label="..." name="question-2" value="4">4<br>
+                            <input type="radio" aria-label="..." name="question-2" value="5">5<br>
 
                         </div><!-- /input-group -->
                       </div><!-- /.col-lg-6 -->
@@ -84,11 +91,11 @@
                       <div class="col-lg-6">
                         <div class="input-group">
                             <p> How would you describe the balance of times you help your friends vs times friends have helped you? </p>
-                            <input type="radio" aria-label="..." name="question-1" value="1">1<br>
-                            <input type="radio" aria-label="..." name="question-1" value="2">2<br>
-                            <input type="radio" aria-label="..." name="question-1" value="3">3<br>
-                            <input type="radio" aria-label="..." name="question-1" value="4">4<br>
-                            <input type="radio" aria-label="..." name="question-1" value="5">5<br>
+                            <input type="radio" aria-label="..." name="question-3" value="1">1<br>
+                            <input type="radio" aria-label="..." name="question-3" value="2">2<br>
+                            <input type="radio" aria-label="..." name="question-3" value="3">3<br>
+                            <input type="radio" aria-label="..." name="question-3" value="4">4<br>
+                            <input type="radio" aria-label="..." name="question-3" value="5">5<br>
 
                         </div><!-- /input-group -->
                       </div><!-- /.col-lg-6 -->
@@ -96,25 +103,25 @@
                 </div><!-- /.row -->
             </div>
         </div>
-                <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingFour">
                 <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         Question #4
                     </a>
                 </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                 <div class="row">
                   <form action="question-1">
                       <div class="col-lg-6">
                         <div class="input-group">
-                            <p> How would you describe the balance of times you help your friends vs times friends have helped you? </p>
-                            <input type="radio" aria-label="..." name="question-1" value="1">1<br>
-                            <input type="radio" aria-label="..." name="question-1" value="2">2<br>
-                            <input type="radio" aria-label="..." name="question-1" value="3">3<br>
-                            <input type="radio" aria-label="..." name="question-1" value="4">4<br>
-                            <input type="radio" aria-label="..." name="question-1" value="5">5<br>
+                            <p> How often do you see your friends in an average month? </p>
+                            <input type="radio" aria-label="..." name="question-4" value="1">1<br>
+                            <input type="radio" aria-label="..." name="question-4" value="2">2<br>
+                            <input type="radio" aria-label="..." name="question-4" value="3">3<br>
+                            <input type="radio" aria-label="..." name="question-4" value="4">4<br>
+                            <input type="radio" aria-label="..." name="question-4" value="5">5<br>
 
                         </div><!-- /input-group -->
                       </div><!-- /.col-lg-6 -->
@@ -122,25 +129,25 @@
                 </div><!-- /.row -->
             </div>
         </div>
-                <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingFive">
                 <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         Question #5
                     </a>
                 </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                 <div class="row">
                   <form action="question-1">
                       <div class="col-lg-6">
                         <div class="input-group">
-                            <p> How would you describe the balance of times you help your friends vs times friends have helped you? </p>
-                            <input type="radio" aria-label="..." name="question-1" value="1">1<br>
-                            <input type="radio" aria-label="..." name="question-1" value="2">2<br>
-                            <input type="radio" aria-label="..." name="question-1" value="3">3<br>
-                            <input type="radio" aria-label="..." name="question-1" value="4">4<br>
-                            <input type="radio" aria-label="..." name="question-1" value="5">5<br>
+                            <p> How dedicated are you to the well-being of you friends? </p>
+                            <input type="radio" aria-label="..." name="question-5" value="1">1<br>
+                            <input type="radio" aria-label="..." name="question-5" value="2">2<br>
+                            <input type="radio" aria-label="..." name="question-5" value="3">3<br>
+                            <input type="radio" aria-label="..." name="question-5" value="4">4<br>
+                            <input type="radio" aria-label="..." name="question-5" value="5">5<br>
 
                         </div><!-- /input-group -->
                       </div><!-- /.col-lg-6 -->
@@ -148,25 +155,25 @@
                 </div><!-- /.row -->
             </div>
         </div>
-                <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingSix">
                 <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                         Question #6
                     </a>
                 </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
                 <div class="row">
                   <form action="question-1">
                       <div class="col-lg-6">
                         <div class="input-group">
-                            <p> How would you describe the balance of times you help your friends vs times friends have helped you? </p>
-                            <input type="radio" aria-label="..." name="question-1" value="1">1<br>
-                            <input type="radio" aria-label="..." name="question-1" value="2">2<br>
-                            <input type="radio" aria-label="..." name="question-1" value="3">3<br>
-                            <input type="radio" aria-label="..." name="question-1" value="4">4<br>
-                            <input type="radio" aria-label="..." name="question-1" value="5">5<br>
+                            <p> How would you describe the gender balance of your regular friends? </p>
+                            <input type="radio" aria-label="..." name="question-67" value="1">1<br>
+                            <input type="radio" aria-label="..." name="question-67" value="2">2<br>
+                            <input type="radio" aria-label="..." name="question-67" value="3">3<br>
+                            <input type="radio" aria-label="..." name="question-67" value="4">4<br>
+                            <input type="radio" aria-label="..." name="question-67" value="5">5<br>
 
                         </div><!-- /input-group -->
                       </div><!-- /.col-lg-6 -->
@@ -174,25 +181,25 @@
                 </div><!-- /.row -->
             </div>
         </div>
-                <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingSeven">
                 <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                         Question #7
                     </a>
                 </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
                 <div class="row">
                   <form action="question-1">
                       <div class="col-lg-6">
                         <div class="input-group">
-                            <p> How would you describe the balance of times you help your friends vs times friends have helped you? </p>
-                            <input type="radio" aria-label="..." name="question-1" value="1">1<br>
-                            <input type="radio" aria-label="..." name="question-1" value="2">2<br>
-                            <input type="radio" aria-label="..." name="question-1" value="3">3<br>
-                            <input type="radio" aria-label="..." name="question-1" value="4">4<br>
-                            <input type="radio" aria-label="..." name="question-1" value="5">5<br>
+                            <p> How many of your friends have you dated in the past? </p>
+                            <input type="radio" aria-label="..." name="question-7" value="1">1<br>
+                            <input type="radio" aria-label="..." name="question-7" value="2">2<br>
+                            <input type="radio" aria-label="..." name="question-7" value="3">3<br>
+                            <input type="radio" aria-label="..." name="question-7" value="4">4<br>
+                            <input type="radio" aria-label="..." name="question-7" value="5">5<br>
 
                         </div><!-- /input-group -->
                       </div><!-- /.col-lg-6 -->
@@ -200,25 +207,25 @@
                 </div><!-- /.row -->
             </div>
         </div>
-                <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingEight">
                 <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                         Question #8
                     </a>
                 </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
                 <div class="row">
                   <form action="question-1">
                       <div class="col-lg-6">
                         <div class="input-group">
-                            <p> How would you describe the balance of times you help your friends vs times friends have helped you? </p>
-                            <input type="radio" aria-label="..." name="question-1" value="1">1<br>
-                            <input type="radio" aria-label="..." name="question-1" value="2">2<br>
-                            <input type="radio" aria-label="..." name="question-1" value="3">3<br>
-                            <input type="radio" aria-label="..." name="question-1" value="4">4<br>
-                            <input type="radio" aria-label="..." name="question-1" value="5">5<br>
+                            <p> How likely are you to date one of your existing friends? </p>
+                            <input type="radio" aria-label="..." name="question-8" value="1">1<br>
+                            <input type="radio" aria-label="..." name="question-8" value="2">2<br>
+                            <input type="radio" aria-label="..." name="question-8" value="3">3<br>
+                            <input type="radio" aria-label="..." name="question-8" value="4">4<br>
+                            <input type="radio" aria-label="..." name="question-8" value="5">5<br>
 
                         </div><!-- /input-group -->
                       </div><!-- /.col-lg-6 -->
@@ -226,25 +233,25 @@
                 </div><!-- /.row -->
             </div>
         </div>
-                <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingNine">
                 <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                         Question #9
                     </a>
                 </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
                 <div class="row">
                   <form action="question-1">
                       <div class="col-lg-6">
                         <div class="input-group">
-                            <p> How would you describe the balance of times you help your friends vs times friends have helped you? </p>
-                            <input type="radio" aria-label="..." name="question-1" value="1">1<br>
-                            <input type="radio" aria-label="..." name="question-1" value="2">2<br>
-                            <input type="radio" aria-label="..." name="question-1" value="3">3<br>
-                            <input type="radio" aria-label="..." name="question-1" value="4">4<br>
-                            <input type="radio" aria-label="..." name="question-1" value="5">5<br>
+                            <p> How much do you trust your friends? </p>
+                            <input type="radio" aria-label="..." name="question-9" value="1">1<br>
+                            <input type="radio" aria-label="..." name="question-9" value="2">2<br>
+                            <input type="radio" aria-label="..." name="question-9" value="3">3<br>
+                            <input type="radio" aria-label="..." name="question-9" value="4">4<br>
+                            <input type="radio" aria-label="..." name="question-9" value="5">5<br>
 
                         </div><!-- /input-group -->
                       </div><!-- /.col-lg-6 -->
@@ -252,25 +259,25 @@
                 </div><!-- /.row -->
             </div>
         </div>
-                <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTen">
                 <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                         Question #10
                     </a>
                 </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
                 <div class="row">
                   <form action="question-1">
                       <div class="col-lg-6">
                         <div class="input-group">
-                            <p> How would you describe the balance of times you help your friends vs times friends have helped you? </p>
-                            <input type="radio" aria-label="..." name="question-1" value="1">1<br>
-                            <input type="radio" aria-label="..." name="question-1" value="2">2<br>
-                            <input type="radio" aria-label="..." name="question-1" value="3">3<br>
-                            <input type="radio" aria-label="..." name="question-1" value="4">4<br>
-                            <input type="radio" aria-label="..." name="question-1" value="5">5<br>
+                            <p> How likely are you to choose a significant other over your friends? </p>
+                            <input type="radio" aria-label="..." name="question-10" value="1">1<br>
+                            <input type="radio" aria-label="..." name="question-10" value="2">2<br>
+                            <input type="radio" aria-label="..." name="question-10" value="3">3<br>
+                            <input type="radio" aria-label="..." name="question-10" value="4">4<br>
+                            <input type="radio" aria-label="..." name="question-10" value="5">5<br>
 
                         </div><!-- /input-group -->
                       </div><!-- /.col-lg-6 -->
@@ -279,13 +286,31 @@
             </div>
         </div>
     </div>
+    <button type="button" class="btn btn-primary btn-lg" id="submit">Submit</button>
 
 </body>
 </html>
 <script type="text/javascript">
-    $(".submit").on("click", function () {
+    $("#submit").on("click", function () {
         //convert survey results to an object
-        var surveyResults = "RESULTS GO HERE"
+        var surveyResults = {
+            name: $('#friendName').val().trim(),
+            photo: $('#friendURL').val().trim(),
+            scores: [
+                $("input[name=question-1]:radio:checked").val(),
+                $("input[name=question-2]:radio:checked").val(),
+                $("input[name=question-3]:radio:checked").val(),
+                $("input[name=question-4]:radio:checked").val(),
+                $("input[name=question-5]:radio:checked").val(),
+                $("input[name=question-6]:radio:checked").val(),
+                $("input[name=question-7]:radio:checked").val(),
+                $("input[name=question-8]:radio:checked").val(),
+                $("input[name=question-9]:radio:checked").val(),
+                $("input[name=question-10]:radio:checked").val()
+            ]
+
+        };
+        var currentURL = window.location.origin;
         $.post(currentURL + "/api/friends", surveyResults, function (data) {
             //show results of Friends Match
             alert("Results of Friends Match");

@@ -7,6 +7,8 @@ module.exports = function (app) {
     });
 
     app.post('/api/friends', function (req, res) {
-        console.log("friend logic happens here.");
+        console.log(req.body);
+        friendsList.push(req.body);
+
     })
 }
